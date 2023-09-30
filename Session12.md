@@ -12,34 +12,41 @@ Hence Tuple is Read Only version of List.
 4. Duplicates are allowed
 5. Heterogeneous objects are allowed.
 6. We can preserve insertion order and we can differentiate duplicate objects by using
-   index. 
-7. Hence index will play very important role in Tuple also.
-8. Tuple support both +ve and -ve index. 
-9. +ve index means forward direction(from left to right) 
-10.-ve index means backward direction(from right to left)
-11. We can represent Tuple elements within Parenthesis and with comma seperator.
-12. Parenethesis are optional but recommended to use.
-13. Tuple is Read Only version of List.
+index. Hence index will play very important role in Tuple also.
+Tuple support both +ve and -ve index. +ve index means forward direction(from left to
+right) and -ve index means backward direction(from right to left)
+7. We can represent Tuple elements within Parenthesis and with comma seperator.
+Parenethesis are optional but recommended to use.
 
-eg. 
-t = (10, 'neha', 20, 10)
-    
-    this is with Parenethesis, 
+
+1. Order is applicable
+2. Duplicates are allowed
+3. Hetrogeneous Objects
+4. Indexing and Slicing 
+
+    *5. Immutable(Once Tuple is created then we can't change its contain)
+    *6. ( ) perenthities but it is optional.
+Hence Tuple is Read Only version of List.
+
+
+    t = (10, 'neha', 20, 10)
+    this is with perenthities, 
     Duplicates are allow, 
     Hetrogeneous objects are allowed.
     
-print(t[0])     >> 10 # this 10 at 0 index.
-print(t[-1])    >> 10 # this 10 at 3rd or -1 index.
-    
-- By using index we can differanciate duplicate elements. 
-- So ordered will be preserved by using index.
+    print(t[0])     >> 10 # this 10 at 0 index.
+    print(t[-1])    >> 10 # this 10 at 3rd or -1 index.
+    By using index we can differanciate duplicate elements. 
+    So ordered will be preserved by using index.
 
 
-t = 10, 'neha', 20, 10 
-- if you don't want to perenthities
+
+
+    t = 10, 'neha', 20, 10 
+    if you don't want to perenthities
 
 Q. How we will come to know that t is tuple. 
-print(type(t))  -> Class 'Tuple'
+    print(type(t))  -> Class 'Tuple'
 
 Example1 of List:-
 
@@ -72,9 +79,13 @@ when we going to use Tuple object.
 Here, we can add, update, edit and delete comment.
 So Youtube comment I want to store some where then I will use which type of object.
 
-2. Suppose comment will never going to change and it will be remain always fixed/same. 
-and Vending machine where input is fixed like 10, 20, 50, 100 INR it will take.
-and In cloud server where its state are fixed like, 'START', 'STOP', 'TERMINATED', 'STOP' and 'RUNNING' 
+2. Suppose comment will never going to change and it will be 
+remain always fixed/same. 
+and
+Vending machine where input is fixed like 10, 20, 50, 100 INR it will take.
+and
+In cloud server where its state are fixed like, 'START', 'STOP', 'TERMINATED', 'STOP' and 'RUNNING' 
+
 So in this case we are using Tuple.
 
 -------------------------------------------------------------------------
@@ -441,7 +452,5 @@ False
 ----------------------------------------------------------
 
 Video 172:- Important Methods and Function for Tuple: len(), count() and index()
-
-
 
 
